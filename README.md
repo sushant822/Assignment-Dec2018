@@ -1,4 +1,4 @@
-# Analyzing-Toronto-Neighborhoods
+# Segmenting and Clustering Neighborhoods in Toronto
 ## by Sushant Deshpande
 
 The basis of this study is to help a small group of investors planning to open their first brewery/restaurant in Toronto. Being that Toronto is the most populated city in Canada, and continually ranks as an important global city based on a high quality of living, the choice to expand into the neighbor of the north market was an easy selection for the investing group. However, with limited knowledge of the Toronto market, the group of investors have selected us to assist in the selection of which areas of Toronto will facilitate a launch of their brewery/restaurant expansion. In order to achieve this, We’ll perform the following:
@@ -45,11 +45,3 @@ With FourSquare, we get the list of venues that are close to a selected postal c
 ![07_nearby_east](images/07_nearby_east.png)
 
 ![08_nearby_west](images/08_nearby_west.png)
-
-When we run the analysis for the whole of East and West Toronto, we can see that Four Square tells us that East Toronto has 133 unique categories and West Toronto has 162 unique categories.
-
-We analyze each neighbourhood using one hot encoding. Next, we group rows by neighbourhood and by taking the mean of the frequency of occurrence of each category and print each neighbourhood along with the top 5 most common venues.
-
-![11_top_10_east](images/11_top_10_east.png)
-
-![12_top_10_west](images/12_top_10_west.png)
